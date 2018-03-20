@@ -4,4 +4,6 @@ ENV PORT TRUE
 
 RUN yum -y install epel-release && \
     yum -y install python-pip && \
-    pip -y install Flask
+    pip install Flask && \
+    pip install simplejson &&\
+    pip install flask-restful
